@@ -56,11 +56,11 @@ $types = array_values($types);
 
 // CREATE ARRAY WITH DATA
 $results = array(
-	'sessions' 				=> $sessions,
-	'streamedSessions' 		=> $streamedSessions,
+	'sessions' 		=> $sessions,
+	'streamedSessions' 	=> $streamedSessions,
 	'moreThanOneSpeaker' 	=> $moreThanOneSpeaker,
-	'types'					=> $types,
-	'longestTitle'			=> $longestTitle,
+	'types'			=> $types,
+	'longestTitle'		=> $longestTitle,
 	'averageTitleLength'	=> $averageTitleLength
 );
 $json = json_encode($results);
